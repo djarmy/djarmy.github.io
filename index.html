@@ -6,3 +6,19 @@
 6      <li><a href=“https://mp.weixin.qq.com/s/u9m6k8HE4oxDEnNhyBYwkg”>微！信！公！众！号</a></li>
 7      <li><a href=“https://mparticle.uc.cn/article.html?uc_param_str=frdnsnpfvecpntnwprdssskt&wm_aid=3aac42aa07cb47cd9e1616cbd5882593”>我的大鱼</a></li>
 8    </url>
+9
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '页面 ID', // 可选。默认为 location.href  比如我本人的就删除了
+  owner: 'djarmy',              //比如我的叫anTtutu
+  repo: 'djarmy.github.io',                 //比如我的叫anTtutu.github.io
+  oauth: {
+    client_id: '76646c8437da40016fb5',          //比如我的828***********
+    client_secret: '6eff19c7abe2284b1a917f494f7b0519ccdf6850',  //比如我的49e************************
+  },
+})
+gitment.render('container')
+</script>
